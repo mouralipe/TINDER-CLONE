@@ -44,7 +44,7 @@ export default function Login({ navigation }) {
           onChangeText={setUser}
         />
 
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button} onPress={handleLogin}>
           <Text style={styles.buttonText}>Enviar</Text>
         </TouchableOpacity>
     </KeyboardAvoidingView>
